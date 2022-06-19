@@ -2,6 +2,7 @@
 ### Please copy paste below code
 ```
 module rds {
+    source  = "jawadyousoufi/eds-jawad/aws"
     region              = "us-east-1"
     allocated_storage   = 20
     engine              = "mysql"
